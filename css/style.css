@@ -6,6 +6,13 @@ body {
   font-family: 'Open Sans';
 }
 
+.light { opacity: 0.3; }
+.halved { width: 50%; }
+
+table.threepane     { width: 100%; margin-top: 2em; border-collapse: separate; border-spacing: 1em; table-layout: fixed; }
+table.threepane td  { max-width: 30%; }
+table.threepane img { width: 100%; }
+
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
   font-weight: 400;
