@@ -164,7 +164,7 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -189,8 +189,8 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -215,8 +215,8 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
 
@@ -240,38 +240,11 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
-
-- How does ES6 help us
-  - do work faster
-
-]
-.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
-
-
-
----
-
-
-
-layout: false
-.left-column[
-  ## In this talk
-]
-.right-column[
-
-- What is ES6
-
-- Why do we care
-
-- Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
-  - find bugs faster
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -293,13 +266,12 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
   - find bugs faster
-  - better re-use code
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -321,14 +293,13 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
   - find bugs faster
   - better re-use code
-  - do better deploys
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -350,15 +321,14 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
   - find bugs faster
   - better re-use code
   - do better deploys
-  - ditch existing libs
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -380,8 +350,8 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
@@ -390,8 +360,6 @@ layout: false
   - do better deploys
   - ditch existing libs
 
-- What are some downsides?
-
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
 
@@ -412,8 +380,8 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
@@ -444,8 +412,40 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
+
+- How does ES6 help us
+  - do work faster
+  - find bugs faster
+  - better re-use code
+  - do better deploys
+  - ditch existing libs
+
+- What are some downsides?
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+]
+.right-column[
+
+- What is ES6
+
+- Why do we care
+
+- Code examples
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
@@ -478,8 +478,8 @@ layout: false
 - Why do we care
 
 - Code examples
-  - We'll cover `foo`, `bar`, `baz`, `whargarbl`
-  - No time for `quux`, `corge`, `grault`, `whargarbl`
+  - We'll cover `destructuring`, `arrows`, `const`, `let`, `template strings`, `collapsed properties`, `spread`, `rest`, `default`, `modules`, and `tail calls`
+  - No time for `symbol`, `proxy`, `classes`, `generators`, `iterators`, `promises`, or `reflect`
 
 - How does ES6 help us
   - do work faster
@@ -1286,7 +1286,7 @@ layout: false
     - Many other tools also need it
   - Hiring is easier in modern tooling
 
-But first let's see some of the actual code.
+I'll justify these after the examples.  But, first, *let's see some of the actual code*.
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -1337,26 +1337,91 @@ layout: false
   ## What is ES6
   ## Why care
   ## Examples!
-  ### Arrows
+  ### Destructuring
 ]
 .right-column[
 
-# Arrow functions
+# Destructuring
 
-Arrow functions are anonymous functions that lexically bind `this` automatically.  They also have an interesting notation which allows you to throw away most of the code.
+## <span class="light">(aka pattern matching)</span>
 
-If an arrow takes exactly one argument, you may discard the parentheses around the argument.
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
 
-If there is only one statement in an arrow, you may discard the block *and* the `return`.
 
-ES6:
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+![](./img/yo dawg destructuring.jpg)
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+Destructuring assignment (called `pattern matching` in some languages) is a much easier way to get values out of structures, with less boilerplate.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+Destructuring assignment (called `pattern matching` in some languages) is a much easier way to get values out of structures, with less boilerplate.
+
 ```javascript
-[1,2,3,4,5].map(x => x*2);
+function makeRectangle() {
+  return { width: 5, height: 10, color: 'blue' };
+}
 ```
 
-ES5:
 ```javascript
-[1,2,3,4,5].map( function(x) { return x*2; } );
+const { width, height } = makeRectangle();
 ```
 
 ]
@@ -1374,6 +1439,373 @@ layout: false
   ## What is ES6
   ## Why care
   ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+You may also destructure deep datastructures.
+
+```javascript
+const person = {
+  name: {
+    first  : 'Bob',
+    last   : 'Dobbs'
+  },
+  job: {
+    title  : 'Subgenius',
+    salary : 80000,
+    site   : 'Paris'
+  }
+};
+```
+
+```javascript
+function GetTitleLine(personData) {
+  { name: { first, last }, job: { title } } = personData;
+  return first + ' ' + last + "(" + title + ")";
+}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+You can also destructure arrays.
+
+```javascript
+const someData     = [4,1,7,2,6,3,5],
+      [pivot, ...] = whatever,         /\* pivot is now 4 \*/
+      [a,b,c, ...] = whatever;         /\* b is 1; c is 7 \*/
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+You can also destructure arrays.
+
+```javascript
+const someData     = [4,1,7,2,6,3,5],
+      [pivot, ...] = whatever,         /\* pivot is now 4 \*/
+      [a,b,c, ...] = whatever;         /\* b is 1; c is 7 \*/
+```
+
+We'll get back to this example when we do the `spread` operator.  This dovetails nicely with other stuff.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+]
+.right-column[
+
+# Destructuring
+
+You can *also* destructure in the arguments of a function.
+
+```javascript
+const person = {
+  name: {
+    first  : 'Bob',
+    last   : 'Dobbs'
+  },
+  job: {
+    title  : 'Subgenius',
+    salary : 80000,
+    site   : 'Paris'
+  }
+};
+```
+
+```javascript
+function Title({ name: { first, last }, job: { title } }) {
+  return first + ' ' + last + "(" + title + ")";
+}
+```
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Arrow functions are anonymous functions that lexically bind `this` automatically.  They also have an interesting notation which allows you to throw away most of the code.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Arrow functions are anonymous functions that lexically bind `this` automatically.  They also have an interesting notation which allows you to throw away most of the code.
+
+ES5:
+
+```javascript
+const foo = function(x) { return x*2; }
+```
+
+ES6:
+
+```javascript
+const foo = (x) => { return x*2; }
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+If an arrow has exactly one statement, you may write it as an expression, instead.  This means no `{ }` block, and no need for a `return`.
+
+ES5:
+
+```javascript
+const foo = function(x) { return x*2; }
+```
+
+ES6:
+
+```javascript
+const foo = (x) => x*2;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+If an arrow takes exactly one argument, you may also discard the parentheses around the argument.  (Not with multiple or zero, though.)
+
+ES5:
+
+```javascript
+const foo = function(x) { return x*2; }
+```
+
+ES6:
+
+```javascript
+const foo = x => x*2;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Arrows are ***super useful*** with destructuring.
+
+```javascript
+const area = ({width, height}) => width * height;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Arrows are ***super useful*** with destructuring.
+
+```javascript
+const area = ({width, height}) => width * height;
+```
+
+```javascript
+[
+  { width: 4, height: 2, color: blue },
+  { width: 3, height: 3, border: false },
+  { width: 5, height: 1, opacity: 0.5 },
+].map(
+  rekt => console.log(area(rekt))
+);
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
   ### Arrows
 ]
 .right-column[
@@ -1408,28 +1840,1931 @@ layout: false
   ## What is ES6
   ## Why care
   ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Member `Bob Dobbs`?
+
+```javascript
+function Title({ name: { first, last }, job: { title } }) {
+  return first + ' ' + last + "(" + title + ")";
+}
+```
+
+becomes
+
+```javascript
+const Title = ({ name: { first, last }, job: { title } }) =>
+  first + ' ' + last + "(" + title + ")";
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
   ### Arrows
 ]
 .right-column[
 
 # Arrow functions
 
-And lexical `this` means you don't need to `.bind`.
+Lexical `this` means you don't need to `.bind`.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Lexical `this` means you don't need to `.bind`.
+
+Given
+```javscript
+const someObj = { val: 25 };
+const caller  = { val: 50, makeCall: () => someObj.doCall() };
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Lexical `this` means you don't need to `.bind`.
+
+Given
+```javscript
+const someObj = { val: 25 };
+const caller  = { val: 50, makeCall: () => someObj.doCall() };
+```
+
+This will return 50, not 25:
 
 ```javascript
 /\* \`this\` refers to the caller, not someObj \*/
-someObj.bad = function() { return this.val; }
+someObj.doCall = function() { return this.val; }
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Lexical `this` means you don't need to `.bind`.
+
+Given
+```javscript
+const someObj = { val: 25 };
+const caller  = { val: 50, makeCall: () => someObj.doCall() };
+```
+
+This will return 50, not 25:
+
+```javascript
+/\* \`this\` refers to the caller, not someObj \*/
+someObj.doCall = function() { return this.val; }
+```
+
+This gives 25 like most people expect:
+
+```javascript
+someObj.doCall = function() { return this.val; }.bind(someObj);
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Lexical `this` means you don't need to `.bind`.
+
+Given
+```javscript
+const someObj = { val: 25 };
+const caller  = { val: 50, makeCall: () => someObj.doCall() };
+```
+
+This will return 50, not 25:
+
+```javascript
+/\* \`this\` refers to the caller, not someObj \*/
+someObj.doCall = function() { return this.val; }
+```
+
+This gives 25 like most people expect:
+
+```javascript
+someObj.doCall = function() { return this.val; }.bind(someObj);
+```
+
+It's just handled with arrows, though.
+
+```javascript
+someObj.doCall = () => this.val;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow function gotcha
+
+This is Javascript, which is why we can't have nice things.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow function gotcha
+
+This is Javascript, which is why we can't have nice things.
+
+If your arrow returns an `object`, which also uses `{}` to delimit, the arrow is going to think you're writing a block.
+
+```javascript
+/* error: this is a block, not an object */
+const dagnabbit = () => { foo: 'bar' };
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+]
+.right-column[
+
+# Arrow function gotcha
+
+This is Javascript, which is why we can't have nice things.
+
+If your arrow returns an `object`, which also uses `{}` to delimit, the arrow is going to think you're writing a block.
+
+```javascript
+/* error: this is a block, not an object */
+const dagnabbit = () => { foo: 'bar' };
+```
+
+You'll need to write
+
+```javascript
+const dagnabbit = () => { return { foo: 'bar' }; }
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+]
+.right-column[
+
+# Const
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+]
+.right-column[
+
+# Const
+
+Stop letting things change that shouldn't change!
+
+```javascript
+const size = 5;
+...
+size = 10;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+]
+.right-column[
+
+# Const
+
+Stop letting things change that shouldn't change!
+
+```javascript
+const size = 5;
+...
+size = 10;
+```
+
+<img class="halved" src="./img/no cartoon scientist.jpg"/>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+]
+.right-column[
+
+# Const
+
+At Tilt, we thought this wasn't going to be a big deal.  We had a low-bug frontend, and we were smart programmers who didn't do silly things with name re-use.
+
+<img class="halved" src="./img/fry squint.png"/>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+]
+.right-column[
+
+# Const
+
+At Tilt, we thought this wasn't going to be a big deal.  We had a low-bug frontend, and we were smart programmers who didn't do silly things with name re-use.
+
+Moving from `var` to `const` ended up turning up almost 40 bugs <span class="red">basically overnight</span>.
+
+<img class="halved" src="./img/math 4panel.jpeg"/>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+]
+.right-column[
+
+# Const
+
+At Tilt, we thought this wasn't going to be a big deal.  We had a low-bug frontend, and we were smart programmers who didn't do silly things with name re-use.
+
+Moving from `var` to `const` ended up turning up almost 40 bugs basically overnight.
+
+We can get tooling support from `eslint`, to help us find these.  This doesn't have to be an archaeological dig.
+
+<img class="halved" src="./img/indy.jpg"/>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+`let` is just `var` with less-stupid binding rules.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+Let's see who's feeling froggy.
+
+```javascript
+for (var i=0; i<5; ++i) {
+  document.getElementById('button' + i.toString()).onClick =
+    () => window.alert('Button ' + i + ' pressed!');
+}
+document.getElementById('button3').click();
+```
+
+What message gets alerted?
+
+<img class="halved" src="./img/alex trebek.jpg"/>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+```javascript
+for (var i=0; i<5; ++i) {
+  document.getElementById('button' + i.toString()).onClick =
+    () => window.alert('Button ' + i + ' pressed!');
+}
+document.getElementById('button3').click();
+```
+
+The message will be "Button 5 pressed!"
+
+In fact, it'll say that for all of them.
+
+<img class="halved" src="./img/zach math.gif"/>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+```javascript
+for (var i=0; i<5; ++i) {
+  document.getElementById('button' + i.toString()).onClick =
+    () => window.alert('Button ' + i + ' pressed!');
+}
+document.getElementById('button3').click();
+```
+
+The problem is that what's being bound in that function is the actual variable, rather than the value.  So, as the for loop updates the value, the functions just check the variable, and get the new value.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+```javascript
+for (let i=0; i<5; ++i) {
+  document.getElementById('button' + i.toString()).onClick =
+    () => window.alert('Button ' + i + ' pressed!');
+}
+document.getElementById('button3').click();
+// because of let i, now gets 3 like you'd expect
+```
+
+The problem is that what's being bound in that function is the actual variable, rather than the value.  So, as the for loop updates the value, the functions just check the variable, and get the new value.
+
+If you change the `var` to `let`, then the declaration will be <span class="red">remade for each pass of the loop</span> (like most people expect,) and each handler will get its own, no longer updated copy.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+`let` also disallows redefinition, which (augh) `var` does not.
+
+```javascript
+var a = 3;
+var a = 5; // legal; source of bugs when far apart
 ```
 
 ```javascript
-/\* does what most people expect \*/
-someObj.good = function() { return this.val; }.bind(someObj);
+let b = 3;
+let b = 5; // this is an error, thank ${religion.prophet}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+`let` also disallows redefinition, which (augh) `var` does not.
+
+```javascript
+var a = 3;
+var a = 5; // legal; source of bugs when far apart
 ```
 
 ```javascript
-/\* arrow functions auto-bind for you \*/
-someObj.meh = () => this.val;
+let b = 3;
+let b = 5; // this is an error, thank ${religion.prophet}
 ```
+
+<span class="red">The number of bugs this turned up at Womply was startling and gross.</span>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+More strictly, `let` is local scoped, whereas `var` is block scoped.  That is, `var` is scoped to the block it's in, which is generally the top level function.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+More strictly, `let` is local scoped, whereas `var` is block scoped.  That is, `var` is scoped to the block it's in, which is generally the top level function.
+
+<span class="red">Block scoping leaks</span>.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+More strictly, `let` is local scoped, whereas `var` is block scoped.  That is, `var` is scoped to the block it's in, which is generally the top level function.
+
+<span class="red">Block scoping leaks</span>.
+
+```javascript
+function foo() {
+  for (var i=0; i<10; ++i) { whatever(); }
+  console.log(i);  // 10
+}
+```
+
+```javascript
+function bar() {
+  for (let i=0; i<10; ++i) { whatever(); }
+  console.log(i);  // undefined
+}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+More strictly, `let` is local scoped, whereas `var` is block scoped.  That is, `var` is scoped to the block it's in, which is generally the top level function.
+
+<span class="red">Block scoping leaks</span>.
+
+```javascript
+function foo() {
+  for (var i=0; i<10; ++i) { whatever(); }
+  console.log(i);  // 10
+}
+```
+
+```javascript
+function bar() {
+  for (let i=0; i<10; ++i) { whatever(); }
+  console.log(i);  // undefined
+}
+```
+
+This can cause weird bugs, especially around shadowing ([this was in a PR here the other day](https://github.com/HoneyBook/HoneybookPaymentsDev/pull/437), and ***does happen semi-frequently*** in the real world.)
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+]
+.right-column[
+
+# Let
+
+There is almost no good reason to use `var` anymore.
+
+If it's constant (it usually is,) use `const`.
+
+Otherwise, please use `let`.  It prevents problems.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+]
+.right-column[
+
+# Template String Literals
+
+We now have a notation for inlining.  Backticks make a "template string."  Within a template string, expressions like `${foo}` are evaluated ***at assignment time***.
+
+```javascript
+var whom = "George",
+    what = \`I had lunch with ${whom}.\`;
+```
+
+These interpolations need not be other variables, or literals; they may be any expression.
+
+```javascript
+const seq  = ['bob', 'linda', 'bill', 'mayhem'],
+      text = \`We invited: ${ seq.join(', ') }!\`;
+```
+
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+]
+.right-column[
+
+# Template String Literals
+
+Template string literals may also be multi-line.  To replace:
+
+ES5:
+
+![](./img/cant_render_es5_template.png)
+
+<span class="light">(lol the highlighter can't even render this)</span>
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+]
+.right-column[
+
+# Template String Literals
+
+You could instead write:
+
+ES6:
+
+```javascript
+const pageframe = (title, menu, content) =>
+\`<!doctype>
+<html>
+  <head>
+    <title>${title}</title>
+  </head>
+  <body>
+    <ul class="menu"><li>${menu.join('</li><li>')}</li></ul>
+    ${content}
+  </body>
+</html>
+}\`;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+]
+.right-column[
+
+# Member `Bob Dobbs`?
+
+```javascript
+const Title = ({ name: { first, last }, job: { title } }) =>
+  first + ' ' + last + "(" + title + ")";
+}
+```
+
+becomes
+
+```javascript
+const Title = ({ name: { first, last }, job: { title } }) =>
+  \`${first} ${last} (${title})\`;
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+The module loader we deserve 😀 😂 📣
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+The module loader we deserve 😀 😂 📣
+
+Will work in browsers Real Soon Now &trade;
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+The module loader we deserve 😀 😂 📣
+
+Will work in browsers Real Soon Now &trade;
+
+About the code, not the implementation.  Can easily be converted to current tooling.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+The module loader we deserve 😀 😂 📣
+
+Will work in browsers Real Soon Now &trade;
+
+About the code, not the implementation.  Can easily be converted to current tooling.
+
+Feels like a nicer version of `require` from `node CommonJS`.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+The module loader we deserve 😀 😂 📣
+
+Will work in browsers Real Soon Now &trade;
+
+About the code, not the implementation.  Can easily be converted to current tooling.
+
+Feels like a nicer version of `require` from `node CommonJS`.
+
+<span class="red">Already works in our stack</span>.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+This is super useful for breaking code up and making it modular, without shenanigans.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+This is super useful for breaking code up and making it modular, without shenanigans.
+
+Given:
+```javascript
+const Bob = { name: {first: 'Bob', last: 'Dobbs'} };
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+This is super useful for breaking code up and making it modular, without shenanigans.
+
+Given:
+```javascript
+const Bob = { name: {first: 'Bob', last: 'Dobbs'} };
+```
+
+Utility module:
+
+```javascript
+const getname({ name: {first, last} }) => \`${first} ${last}\`;
+export { getname: getname };
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Export
+]
+.right-column[
+
+# Import/export
+
+This is super useful for breaking code up and making it modular, without shenanigans.
+
+Given:
+```javascript
+const Bob = { name: {first: 'Bob', last: 'Dobbs'} };
+```
+
+Utility module:
+
+```javascript
+const getname({ name: {first, last} }) => \`${first} ${last}\`;
+export { getname: getname };
+```
+
+Dependent code:
+
+```javascript
+import { getname } from './js/util.js';
+console.log(getname(Bob));
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+This is kind of a minor thing, but it actually makes stuff a lot more readable, so, whatever.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+This is kind of a minor thing, but it actually makes stuff a lot more readable, so, whatever.
+
+You know how in `SGML` you can skip the value of a property when it's the same as the key?
+
+```html
+<input disabled="disabled"/>
+<input disabled/>   <!-- same thing -->
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+This is kind of a minor thing, but it actually makes stuff a lot more readable, so, whatever.
+
+You know how in `SGML` you can skip the value of a property when it's the same as the key?
+
+```html
+<input disabled="disabled"/>
+<input disabled/>   <!-- same thing -->
+```
+
+You can do that in JS now too.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+This is kind of a minor thing, but it actually makes stuff a lot more readable, so, whatever.
+
+You know how in `SGML` you can skip the value of a property when it's the same as the key?
+
+```html
+<input disabled="disabled"/>
+<input disabled/>   <!-- same thing -->
+```
+
+You can do that in JS now too.
+
+```javascript
+const a=5, b=false, c="wha";
+console.log({ a: a, b: b, c: c });
+console.log({ a, b, c });
+/\* these both say { a: 5, b: false, c: 'wha' } \*/
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+Given:
+
+```javascript
+const foo = 'stuff' + someCall(),
+      bar = 12,
+      baz = ['what','ever'].join('');
+```
+
+Old way:
+
+```javascript
+function DoTheThing() {
+  return { foo: foo, bar: bar, baz: baz };
+}
+```
+
+New way:
+
+```javascript
+function DoTheThing() {
+  return { foo, bar, baz };
+}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Member util.js?
+
+Was:
+
+```javascript
+const getname({ name: {first, last} }) => \`${first} ${last}\`;
+export { getname: getname };
+```
+
+Is now:
+
+```javascript
+const getname({ name: {first, last} }) => \`${first} ${last}\`;
+export { getname };
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+Given:
+
+```javascript
+const foo = 'stuff' + someCall(),
+      bar = 12,
+      baz = ['what','ever'].join('');
+```
+
+Old way:
+
+```javascript
+function DoTheThing() {
+  return { foo: foo, bar: bar, baz: baz };
+}
+```
+
+New way:
+
+```javascript
+function DoTheThing() {
+  return { foo, bar, baz };
+}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+]
+.right-column[
+
+# Collapsed properties
+
+Given:
+
+```javascript
+const foo = 'stuff' + someCall(),
+      bar = 12,
+      baz = ['what','ever'].join('');
+```
+
+Old way:
+
+```javascript
+function DoTheThing() {
+  return { foo: foo, bar: bar, baz: baz };
+}
+```
+
+New way:
+
+```javascript
+function DoTheThing() {
+  return { foo, bar, baz };
+}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+  ### Tail calls
+]
+.right-column[
+
+# Tail calls
+
+What's the threat here?
+
+```javascript
+function doEach(container) {
+  if (!container.length) { return; }
+  console.log(container[0]);
+  doEach(container.slice(1));
+}
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+  ### Tail calls
+]
+.right-column[
+
+# Tail calls
+
+What's the threat here?
+
+```javascript
+function doEach(container) {
+  if (!container.length) { return; }
+  console.log(container[0]);
+  doEach(container.slice(1));
+}
+```
+
+![](./img/stack overflow.png)
+
+Each recursion pushes a new stack frame onto the stack.  Eventually the stack runs out.
+
+Stack frames contain the "previous function invokation," which the VM goes back to.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+  ### Tail calls
+]
+.right-column[
+
+# Tail calls
+
+What's the threat here?
+
+```javascript
+function doEach(container) {
+  if (!container.length) { return; }
+  console.log(container[0]);
+  doEach(container.slice(1));
+}
+```
+
+Tail calls mean there's no stack frame to go back to, so you can recurse safely over huge data.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Destructuring
+  ### Arrows
+  ### Const
+  ### Let
+  ### Templates
+  ### Collapse
+  ### Tail calls
+  ### Defaults
+]
+.right-column[
+
+# Defaults
+
+ES5:
+
+```javascript
+function foo(a, b) {
+  a = a || 5;
+  b = b || 'whatever';
+  console.log(\`${a}, ${b}\`);
+}
+```
+
+ES6:
+
+```javascript
+function foo(a=5, b='whatever') {
+  console.log(\`${a}, ${b}\`);
+}
+```
+
+Tail calls mean there's no stack frame to go back to, so you can recurse safely over huge data.
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -1538,7 +3873,6 @@ Some of the features in ES6 can have a surprisingly dramatic impact on productiv
   - `get`ters and `set`ters
   - `promise`s
   - default values
-  - Examples coming at the end `:D`
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -1574,7 +3908,6 @@ Some of the features in ES6 can have a surprisingly dramatic impact on productiv
   - `get`ters and `set`ters
   - `promise`s
   - default values
-  - Examples coming at the end `:D`
 
 Many classes of code that are common online can see 50-75% reductions in the amount of work needed to implement something.  <span class="light">Woo less work!</span>
 
@@ -1648,7 +3981,6 @@ Lots of things have been added to `ES6` that make it easier to find problems.
   - default values - better than `||` or `!== undefined`
   - `get`ters and `set`ters - as log points
   - `WeakSet` and `WeakMap` - fewer memory leaks for sure
-  - Examples coming at the end `:D`
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
@@ -1683,7 +4015,6 @@ Lots of things have been added to `ES6` that make it easier to find problems.
   - default values - better than `||` or `!== undefined`
   - `get`ters and `set`ters - as log points
   - `WeakSet` and `WeakMap` - fewer memory leaks for sure
-  - Examples coming at the end `:D`
 
 ES6 is stricter in important ways than ES5, and gives you the tools to be stricter, too
 
@@ -1720,7 +4051,6 @@ Lots of things have been added to `ES6` that make it easier to find problems.
   - default values - better than `||` or `!== undefined`
   - `get`ters and `set`ters - as log points
   - `WeakSet` and `WeakMap` - fewer memory leaks for sure
-  - Examples coming at the end `:D`
 
 ES6 is stricter in important ways than ES5, and gives you the tools to be stricter, too
 
