@@ -1318,7 +1318,118 @@ layout: false
 ]
 .right-column[
 
-# Code example party
+# Code examples
+
+One by one, let's compare the `ES5` and the `ES6` way.
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+Arrow functions are anonymous functions that lexically bind `this` automatically.  They also have an interesting notation which allows you to throw away most of the code.
+
+If an arrow takes exactly one argument, you may discard the parentheses around the argument.
+
+If there is only one statement in an arrow, you may discard the block *and* the `return`.
+
+ES6:
+```javascript
+[1,2,3,4,5].map(x => x*2);
+```
+
+ES5:
+```javascript
+[1,2,3,4,5].map( function(x) { return x*2; } );
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+As a result, you can write code like
+
+```javascript
+const top5_salary_sum_daily =
+  people
+    .filter( person  => person.alive        )
+    .filter( person  => person.employed     )
+    .sort  ( (a,b)   => a.salary - b.salary )  /\* reverse \*/
+    .slice(5)
+    .map   ( person  => salary / 365        )
+    .reduce( (acc,n) => acc + n             ); /\* sum \*/
+```
+
+]
+.footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
+
+
+
+---
+
+
+
+layout: false
+.left-column[
+  ## In this talk
+  ## What is ES6
+  ## Why care
+  ## Examples!
+  ### Arrows
+]
+.right-column[
+
+# Arrow functions
+
+And lexical `this` means you don't need to `.bind`.
+
+```javascript
+/\* \`this\` refers to the caller, not someObj \*/
+someObj.bad = function() { return this.val; }
+```
+
+```javascript
+/\* does what most people expect \*/
+someObj.good = function() { return this.val; }.bind(someObj);
+```
+
+```javascript
+/\* arrow functions auto-bind for you \*/
+someObj.meh = () => this.val;
+```
 
 ]
 .footnote[[Propaganda site](https://github.com/StoneCypher/ES6-vs-ES5-Tech-Talk/)]
